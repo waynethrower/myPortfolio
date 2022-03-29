@@ -23,20 +23,23 @@ function About() {
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+                Motivated ambitious Computer Science graduate, with over 2 years
+                Software Development experience, my expertise includes software
+                development, testing, programming and web design. I am a strong
+                team player with an emphasis on providing quality technical work
+                and technically sound solutions in a timely manner with minimal
+                supervision.
               </p>
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+                School of Code has enabled me to learn the latest Full Stack
+                technologies such as JavaScript (ES6) and React on the front end
+                plus Node.js, Express.js, Rest API and PostgreSQL for the back
+                end whilst refreshing AGILE methodologies on Real World
+                projects.
               </p>
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
+                I studied Computer Science at the University of Nottingham
+                acheiving a BSc 2:1,
               </p>
               <div className="about__button d__flex align__items__center">
                 <a href="#">

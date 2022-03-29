@@ -4,7 +4,7 @@ import React from "react"
 import "./Project.css"
 
 //assets
-import Project1 from "./img/portfolio-1.jpg"
+import Project1 from "./img/xmasPrj.jpg"
 import Project2 from "./img/4weekProject.png"
 import Project3 from "./img/cs.jpg"
 
