@@ -32,9 +32,9 @@ function Project() {
                 <h4 className="project__text">
                   Who Want's To Be A Millionaire
                 </h4>
-                <a href="#" className="project__btn">
+                {/* <a href="#" className="project__btn">
                   View Project
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ function Project() {
                 <h4 className="project__text">FoodStory</h4>
                 <a
                   href="https://food-story.netlify.app/"
-                  target="_blank"
+                  target="_new"
                   className="project__btn"
                 >
                   View Project
@@ -70,8 +70,8 @@ function Project() {
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h5 className="project__text"></h5>
-                <h4 className="project__text"></h4>
+                {/* <h5 className="project__text"></h5>
+                <h4 className="project__text"></h4> */}
                 {/* <a href="#" className="project__btn">
                   View Details
                 </a> */}
