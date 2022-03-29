@@ -4,7 +4,7 @@ import React from "react"
 import "./About.css"
 
 //assets
-import aboutImg from "./img/about.jpg"
+import aboutImg from "./img/Profile.jpg"
 
 function About() {
   //  Up To Top Btn

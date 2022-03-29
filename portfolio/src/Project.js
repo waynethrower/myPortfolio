@@ -5,9 +5,8 @@ import "./Project.css"
 
 //assets
 import Project1 from "./img/portfolio-1.jpg"
-import Project2 from "./img/portfolio-2.jpg"
-import Project3 from "./img/portfolio-3.jpg"
-import Project4 from "./img/portfolio-4.jpg"
+import Project2 from "./img/4weekProject.png"
+import Project3 from "./img/cs.jpg"
 
 function Project() {
   return (
@@ -51,7 +50,11 @@ function Project() {
               <div className="project__meta absolute">
                 <h5 className="project__text">4 Week Project</h5>
                 <h4 className="project__text">FoodStory</h4>
-                <a href="#" className="project__btn">
+                <a
+                  href="https://food-story.netlify.app/"
+                  target="_blank"
+                  className="project__btn"
+                >
                   View Project
                 </a>
               </div>
@@ -67,8 +70,8 @@ function Project() {
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h5 className="project__text">Coming Soon</h5>
-                <h4 className="project__text">New project coming soon</h4>
+                <h5 className="project__text"></h5>
+                <h4 className="project__text"></h4>
                 {/* <a href="#" className="project__btn">
                   View Details
                 </a> */}

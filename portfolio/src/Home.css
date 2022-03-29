@@ -1,5 +1,5 @@
 .home__bg {
-  background-image: url(./img/bg.jpg);
+  background-image: url(./img/newbg.jpg);
   background-color: #010101;
   background-position: 50%;
   background-repeat: no-repeat;
@@ -8,6 +8,12 @@
 li.nav__items {
   font-size: 18px;
   padding-bottom: 15px;
+  transition: 0.4s;
+}
+li.nav__items:hover {
+  display: inline;
+  transform: scale(1.1);
+  color: #1f4b7a;
 }
 
 .home__content {

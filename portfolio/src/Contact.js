@@ -4,7 +4,7 @@ import React from "react"
 import "./Contact.css"
 
 //assets
-import contactImg from "./img/about-9.jpg"
+import contactImg from "./img/Profile.jpg"
 
 function Contact() {
   return (

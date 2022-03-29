@@ -17,19 +17,19 @@ function Home() {
           <div className="navigation pxy__30">
             <ul className="navbar d__flex">
               <a href="#Home">
-                <li className="nav_items mx__15">Home</li>
+                <li className="nav__items mx__15">Home</li>
               </a>
               <a href="#About">
-                <li className="nav_items mx__15">About</li>
+                <li className="nav__items mx__15">About</li>
               </a>
               <a href="#Portfolio">
-                <li className="nav_items mx__15">Portfolio</li>
+                <li className="nav__items mx__15">Portfolio</li>
               </a>
               {/* <a href="#Blog">
-                <li className="nav_items mx__15">Blog</li>
+                <li className="nav__items mx__15">Blog</li>
               </a> */}
               <a href="#Contact">
-                <li className="nav_items mx__15">Contact</li>
+                <li className="nav__items mx__15">Contact</li>
               </a>
             </ul>
           </div>
@@ -40,10 +40,8 @@ function Home() {
             <div className="home__meta"></div>
             <h1 className="home__text pz__10">WELCOME TO MY PORTFOLIO</h1>
             <h2 className="home__text pz__10">Hi, I’m Wayne Thrower</h2>
-            <h3 className="home__text sweet pz__10">
-              Full Stack JS Developer.
-            </h3>
-            <h4 className="home__text pz__10">based in East Midlands, UK.</h4>
+            <h3 className="home__text sweet pz__10">Full Stack JS Developer</h3>
+            <h4 className="home__text pz__10">Based in East Midlands, UK.</h4>
           </div>
         </div>
       </div>
