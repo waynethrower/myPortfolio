@@ -41,9 +41,10 @@ a.bottom__to__top.active {
   display: flex;
 }
 /* RESPONSIVE */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 820px) {
   .p__color {
     font-size: 15px !important;
+    font-weight: 600;
   }
 }
 @media only screen and (max-width: 425px) {
