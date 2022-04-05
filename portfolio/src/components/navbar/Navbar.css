@@ -17,18 +17,26 @@ li.nav__items:hover {
 
 ul.sidebar.d__flex {
   flex-wrap: wrap;
-  height: 100%;
+  height: 50%;
   position: fixed;
   right: 0%;
   background: #010101;
   justify-content: center;
-  width: 300px;
+  width: 200px;
   top: 0%;
   flex-direction: column;
+  border-radius: 20px 0px 0px 20px;
 }
 
 li.sideNavbar {
-  padding: 25px 30px;
+  padding: 25px 25px;
+  z-index: 10000;
+}
+
+li.sideNavbar:hover {
+  padding: 25px 25px;
+  z-index: 10000;
+  color: #1f4b7a;
 }
 
 /* RESPONSIVE */

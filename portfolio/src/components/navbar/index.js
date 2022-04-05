@@ -47,21 +47,18 @@ function Navbar() {
       {show ? (
         <div className="sideNavbar">
           <ul className="sidebar d__flex">
-            <li className="sideNavbar">
-              <a href="#Home">Home</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#About">About</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#Portfolio">Portfolio</a>
-            </li>
-            {/* <li className="sideNavbar">
-                  <a href="#blog">Blog</a>
-                </li> */}
-            <li className="sideNavbar">
-              <a href="#Contact">Contact</a>
-            </li>
+            <a href="#Home">
+              <li className="sideNavbar">Home </li>
+            </a>
+            <a href="#About">
+              <li className="sideNavbar">About</li>
+            </a>
+            <a href="#Portfolio">
+              <li className="sideNavbar">Portfolio</li>
+            </a>
+            <a href="#Contact">
+              <li className="sideNavbar">Contact</li>
+            </a>
           </ul>
         </div>
       ) : null}
