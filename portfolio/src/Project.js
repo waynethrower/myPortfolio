@@ -29,9 +29,8 @@ function Project() {
               </div>
               <div className="project__meta absolute">
                 <h5 className="project__text">Xmas Week Project</h5>
-                <h4 className="project__text">
-                  Who Want's To Be A Millionaire
-                </h4>
+                {/* <h4 className="project__text">
+                </h4> */}
                 {/* <a href="#" className="project__btn">
                   View Project
                 </a> */}
