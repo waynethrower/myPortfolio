@@ -33,7 +33,7 @@ function Project() {
             projectImg={Project2}
             projectHeading={"4 Week Project"}
             projectName={"FoodStory"}
-            projectLink={"/#"}
+            projectLink={"https://food-story.netlify.app/"}
             codeLink={"/#"}
           />
           <ProjectCard

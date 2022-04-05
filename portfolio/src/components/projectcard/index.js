@@ -21,14 +21,28 @@ function ProjectCard({
             <div className="mask__effect"></div>
           </div>
           <div className="project__meta absolute">
-            <h1 className="project__text">{projectHeading} </h1>
+            {projectHeading ? (
+              <h1 className="project__text">{projectHeading} </h1>
+            ) : (
+              <></>
+            )}
             <h2 className="project__text">{projectName}</h2>
-            <a href={projectLink} target="_new" className="project__btn">
-              View Project
-            </a>
-            <a href={codeLink} target="_new" className="project__btn">
-              Github
-            </a>
+            <div className="project__buttons">
+              {projectLink !== "/#" ? (
+                <a href={projectLink} target="_new" className="project__btn">
+                  View Project
+                </a>
+              ) : (
+                <></>
+              )}
+              {codeLink !== "/#" ? (
+                <a href={codeLink} target="_new" className="project__btn">
+                  Github
+                </a>
+              ) : (
+                <></>
+              )}
+            </div>
           </div>
         </div>
       </div>
