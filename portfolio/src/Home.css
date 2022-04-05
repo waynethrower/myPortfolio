@@ -97,6 +97,7 @@ li.sideNavbar {
   .toggle__menu {
     display: flex;
   }
+
   h2.white.pz__10 {
     font-size: 50px !important;
   }
@@ -118,5 +119,8 @@ li.sideNavbar {
   }
   h4.home__text {
     font-size: 45px;
+  }
+  .toggle__menu {
+    display: flex;
   }
 }
