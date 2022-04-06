@@ -1,0 +1,33 @@
+.social {
+  width: auto;
+}
+
+.socialLink {
+  color: #1f4b7a;
+}
+
+.socialLink:hover {
+  color: #909096;
+  -webkit-transition: fill 0.3s;
+  -o-transition: fill 0.3s;
+  transition: fill 0.3s;
+}
+
+.footer__socials,
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: center;
+  color: #909096;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  opacity: 0.75;
+}

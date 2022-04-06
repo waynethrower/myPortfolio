@@ -29,6 +29,8 @@ ul.sidebar.d__flex {
 }
 
 li.sideNavbar {
+  font-size: 18px;
+  font-weight: 500;
   padding: 25px 25px;
   z-index: 10000;
 }
