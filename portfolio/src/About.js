@@ -57,6 +57,7 @@ function About() {
       <div className="up__to__top__btn">
         <a href="/#" className="bottom__to__top">
           <svg
+            id="up_to_top_btn_svg"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
