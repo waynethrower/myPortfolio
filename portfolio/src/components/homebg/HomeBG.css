@@ -60,7 +60,7 @@
   animation-delay: -10s;
 }
 .square div:nth-child(7) {
-  left: 62%;
+  left: 63%;
   animation: fall 20s linear infinite;
   animation-delay: -5s;
 }
@@ -125,11 +125,45 @@
     height: 50px;
     width: 50px;
   }
+
+  .square div {
+    position: absolute;
+    display: block;
+    /* border: 1px solid #b88846; */
+    width: 50px;
+    height: 50px;
+  }
+
+  .square1 div {
+    position: absolute;
+    display: block;
+    /* border: 1px solid #b88846; */
+    width: 50px;
+    height: 50px;
+    transform: rotateX(180deg);
+  }
 }
 
 @media only screen and (max-width: 390px) {
   .responsive {
-    height: 25px;
-    max-width: 25px;
+    height: 35px;
+    max-width: 35px;
+  }
+
+  .square div {
+    position: absolute;
+    display: block;
+    /* border: 1px solid #b88846; */
+    width: 35px;
+    height: 35px;
+  }
+
+  .square1 div {
+    position: absolute;
+    display: block;
+    /* border: 1px solid #b88846; */
+    width: 35px;
+    height: 35px;
+    transform: rotateX(180deg);
   }
 }
