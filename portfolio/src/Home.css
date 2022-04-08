@@ -1,10 +1,10 @@
 .home__bg {
-  background-image: url(./img/newbg.jpg);
+  background-image: url(./img/bg.jpg);
   background-color: #010101;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.9;
+  opacity: 0.6;
 }
 
 .home__content {
