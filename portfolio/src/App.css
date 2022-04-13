@@ -114,6 +114,7 @@ strong {
 input {
   color: rgba(198, 201, 216, 0.75);
 }
+
 button.btn {
   font-size: 18px;
   font-weight: 500;
@@ -128,6 +129,7 @@ button.btn {
   width: 180px;
   margin: 0px 10px;
 }
+
 .p__color {
   color: rgba(198, 201, 216, 0.75);
   font-size: 18px;

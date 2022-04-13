@@ -1,3 +1,20 @@
+.github__corner__link__container {
+  position: absolute;
+  right: -16px;
+  z-index: 3;
+}
+
+.a__link {
+  position: absolute;
+  right: 12px;
+  bottom: 3px;
+}
+
+.img__link {
+  width: 25px;
+  height: 25px;
+}
+
 .material__card {
   position: relative;
   height: 0;

@@ -26,20 +26,24 @@ function Project() {
             projectImg={Project1}
             projectHeading={"Xmas Week Project"}
             projectName={"Who Want's to be a Millionaire"}
-            // projectLink={"/#"}
-            // codeLink={"/#"}
+            projectLink={""}
+            codeLink={"https://github.com/waynethrower/MillionaireGame"}
           />
           <ProjectCard2
             projectImg={Project2}
             projectHeading={"4 Week Project"}
             projectName={"FoodStory"}
-            // projectLink={"https://food-story.netlify.app/"}
-            // codeLink={"/#"}
+            projectLink={"https://food-story.netlify.app/"}
+            codeLink={
+              "https://github.com/SchoolOfCode/final-project-repo-cool-as-code"
+            }
           />
           <ProjectCard2
             projectImg={Project3}
             projectHeading={"Project"}
             projectName={"Coming Soon"}
+            projectLink={""}
+            codeLink={""}
           />
         </div>
       </div>
