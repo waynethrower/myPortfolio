@@ -30,9 +30,10 @@ input.contact {
 }
 .contact__img {
   border-radius: 10px;
-  width: 100%;
+  max-width: 400px;
   overflow: hidden;
 }
+
 textarea#message {
   height: 120px;
   background: none;

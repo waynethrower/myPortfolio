@@ -5,7 +5,7 @@ import "./HomeBG.css"
 
 //Assets
 // import c from "../../img/icons/c.png"
-import csharp from "../../img/icons/csharp.png"
+// import csharp from "../../img/icons/csharp.png"
 // import cpp from "../../img/icons/c++.png"
 import css from "../../img/icons/css3.png"
 import cypress from "../../img/icons/cypress.png"
@@ -14,7 +14,7 @@ import figma from "../../img/icons/figma.png"
 import git from "../../img/icons/Github.png"
 import heroku from "../../img/icons/heroku.png"
 import html from "../../img/icons/html5.png"
-import java from "../../img/icons/java.png"
+// import java from "../../img/icons/java.png"
 import js from "../../img/icons/javascript-logo.svg"
 import jest from "../../img/icons/jest.png"
 // import mongo from "../../img/icons/mongo.png"
@@ -29,7 +29,7 @@ import react from "../../img/icons/ReactIcon.png"
 // import sass from "../../img/icons/sass.png"
 import slack from "../../img/icons/slack.png"
 import soc from "../../img/icons/SOC.png"
-import typescript from "../../img/icons/typescript.png"
+// import typescript from "../../img/icons/typescript.png"
 import uon from "../../img/icons/UON.png"
 import vstudio from "../../img/icons/visualstudio.png"
 import vscode from "../../img/icons/vscode.png"
@@ -71,9 +71,9 @@ function HomeBG() {
         <div>
           <img className="responsive" src={npm} alt=""></img>
         </div>
-        <div>
+        {/* <div>
           <img className="responsive" src={csharp} alt=""></img>
-        </div>
+        </div> */}
       </div>
       <div className="square square1">
         <div>
@@ -103,15 +103,15 @@ function HomeBG() {
         <div>
           <img className="responsive" src={vstudio} alt=""></img>
         </div>
-        <div>
+        {/* <div>
           <img className="responsive" src={java} alt=""></img>
-        </div>
+        </div> */}
         <div>
           <img className="responsive" src={cypress} alt=""></img>
         </div>
-        <div>
+        {/* <div>
           <img className="responsive" src={typescript} alt=""></img>
-        </div>
+        </div> */}
       </div>
     </>
   )

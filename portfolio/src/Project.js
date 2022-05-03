@@ -4,12 +4,12 @@ import React from "react"
 import "./Project.css"
 
 //assets
-import Project1 from "./img/xmasPrj.jpg"
+import Project1 from "./img/mill.jpg"
 import Project2 from "./img/4weekProject.png"
 import Project3 from "./img/cs.jpg"
 
 //components
-import ProjectCard from "./components/projectcard"
+import ProjectCard2 from "./components/projectCard2"
 
 function Project() {
   return (
@@ -22,26 +22,28 @@ function Project() {
           </p>
         </div>
         <div className="row">
-          <ProjectCard
+          <ProjectCard2
             projectImg={Project1}
             projectHeading={"Xmas Week Project"}
             projectName={"Who Want's to be a Millionaire"}
-            projectLink={"/#"}
-            codeLink={"/#"}
+            projectLink={""}
+            codeLink={"https://github.com/waynethrower/MillionaireGame"}
           />
-          <ProjectCard
+          <ProjectCard2
             projectImg={Project2}
             projectHeading={"4 Week Project"}
             projectName={"FoodStory"}
             projectLink={"https://food-story.netlify.app/"}
-            codeLink={"/#"}
+            codeLink={
+              "https://github.com/SchoolOfCode/final-project-repo-cool-as-code"
+            }
           />
-          <ProjectCard
+          <ProjectCard2
             projectImg={Project3}
-            projectHeading={" "}
-            projectName={" "}
-            projectLink={"/#"}
-            codeLink={"/#"}
+            projectHeading={"Project"}
+            projectName={"Coming Soon"}
+            projectLink={""}
+            codeLink={""}
           />
         </div>
       </div>
