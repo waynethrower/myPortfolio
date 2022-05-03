@@ -21,6 +21,9 @@ function Contact() {
                 <strong>wayne.thrower@hotmail.co.uk</strong>
               </p>
             </div>
+
+            {/* contact form */}
+            <form name="contact-form" method="post"></form>
             <div className="input__box">
               <input
                 type="text"
@@ -42,10 +45,13 @@ function Contact() {
                 id="message"
                 placeholder="Write Your message"
               ></textarea>
-              <button className="btn contact pointer" type="submit">
-                Submit
-              </button>
+              <input
+                type="submit"
+                className="contactbtn btn pointer"
+                value="Submit"
+              />
             </div>
+            {/* end of form */}
           </div>
         </div>
         <div className="col__2">
