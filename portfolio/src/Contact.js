@@ -29,16 +29,19 @@ function Contact() {
                 <input
                   type="text"
                   className="contact name"
+                  id="contact name"
                   placeholder="Your name *"
                 />
                 <input
                   type="text"
                   className="contact email"
+                  id="contact email"
                   placeholder="Your Email *"
                 />
                 <input
                   type="text"
                   className="contact subject"
+                  id="contact subject"
                   placeholder="Write a Subject"
                 />
                 <textarea
