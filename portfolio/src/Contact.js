@@ -49,11 +49,14 @@ function Contact() {
                   id="message"
                   placeholder="Write Your message"
                 ></textarea>
-                <input
+                {/* <input
                   type="submit"
                   className="contactbtn btn pointer"
                   value="Submit"
-                />
+                /> */}
+                <button type="submit" className="contactbtn btn pointer">
+                  Submit
+                </button>
               </div>
             </form>
           </div>
