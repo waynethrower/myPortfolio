@@ -23,35 +23,36 @@ function Contact() {
             </div>
 
             {/* contact form */}
-            <form name="contact-form" method="post"></form>
-            <div className="input__box">
-              <input
-                type="text"
-                className="contact name"
-                placeholder="Your name *"
-              />
-              <input
-                type="text"
-                className="contact email"
-                placeholder="Your Email *"
-              />
-              <input
-                type="text"
-                className="contact subject"
-                placeholder="Write a Subject"
-              />
-              <textarea
-                name="message"
-                id="message"
-                placeholder="Write Your message"
-              ></textarea>
-              <input
-                type="submit"
-                className="contactbtn btn pointer"
-                value="Submit"
-              />
-            </div>
-            {/* end of form */}
+            <form name="contact" method="post" data-netlify="true">
+              <input type="hidden" name="form-name" value="contact" />
+              <div className="input__box">
+                <input
+                  type="text"
+                  className="contact name"
+                  placeholder="Your name *"
+                />
+                <input
+                  type="text"
+                  className="contact email"
+                  placeholder="Your Email *"
+                />
+                <input
+                  type="text"
+                  className="contact subject"
+                  placeholder="Write a Subject"
+                />
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Write Your message"
+                ></textarea>
+                <input
+                  type="submit"
+                  className="contactbtn btn pointer"
+                  value="Submit"
+                />
+              </div>
+            </form>
           </div>
         </div>
         <div className="col__2">
