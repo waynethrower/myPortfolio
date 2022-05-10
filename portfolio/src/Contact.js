@@ -28,17 +28,20 @@ function Contact() {
               <div className="input__box">
                 <input
                   type="text"
-                  name="contact name"
+                  className="contact name"
+                  id="contact name"
                   placeholder="Your name *"
                 />
                 <input
                   type="text"
-                  name="contact email"
+                  className="contact email"
+                  id="contact email"
                   placeholder="Your Email *"
                 />
                 <input
                   type="text"
-                  name="contact subject"
+                  className="contact subject"
+                  id="contact subject"
                   placeholder="Write a Subject"
                 />
                 <textarea
