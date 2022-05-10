@@ -23,7 +23,7 @@ function Contact() {
             </div>
 
             {/* contact form */}
-            <form name="contact" method="post" data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" value="contact" />
               <div className="input__box">
                 <input
