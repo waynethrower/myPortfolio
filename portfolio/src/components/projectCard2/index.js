@@ -36,7 +36,7 @@ function ProjectCard2({
           <strong>
             {projectName}
             {projectLink !== "" ? (
-              <a href={projectLink} alt="" className="a__link">
+              <a href={projectLink} alt="" className="a__link" target="_new">
                 <img src={netlify} alt="" className="img__link"></img>
               </a>
             ) : (

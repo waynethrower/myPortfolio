@@ -21,31 +21,38 @@ function Contact() {
                 <strong>wayne.thrower@hotmail.co.uk</strong>
               </p>
             </div>
-            <div className="input__box">
-              <input
-                type="text"
-                className="contact name"
-                placeholder="Your name *"
-              />
-              <input
-                type="text"
-                className="contact email"
-                placeholder="Your Email *"
-              />
-              <input
-                type="text"
-                className="contact subject"
-                placeholder="Write a Subject"
-              />
-              <textarea
-                name="message"
-                id="message"
-                placeholder="Write Your message"
-              ></textarea>
-              <button className="btn contact pointer" type="submit">
-                Submit
-              </button>
-            </div>
+
+            {/* contact form */}
+            <form name="contact" method="POST" data-netlify="true">
+              <input type="hidden" name="form-name" value="contact" />
+              <div className="input__box">
+                <input
+                  type="text"
+                  className="contact name"
+                  placeholder="Your name *"
+                />
+                <input
+                  type="text"
+                  className="contact email"
+                  placeholder="Your Email *"
+                />
+                <input
+                  type="text"
+                  className="contact subject"
+                  placeholder="Write a Subject"
+                />
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Write Your message"
+                ></textarea>
+                <input
+                  type="submit"
+                  className="contactbtn btn pointer"
+                  value="Submit"
+                />
+              </div>
+            </form>
           </div>
         </div>
         <div className="col__2">
