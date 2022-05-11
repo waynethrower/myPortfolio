@@ -42,9 +42,9 @@ function About() {
                 acheiving a 2:1 BSc
               </p>
               <div className="about__button d__flex align__items__center">
-                <a href="src/document/WayneThrowerCV2022.pdf" download>
+                {/* <a href="src/document/WayneThrowerCV2022.pdf" download>
                   <button className="about btn pointer">Download CV</button>
-                </a>
+                </a> */}
                 <a href="#Contact">
                   <button className="about btn pointer">Hire Me</button>
                 </a>
