@@ -29,18 +29,21 @@ function Contact() {
                 <input
                   type="text"
                   className="contact name"
+                  name="cotact name"
                   id="contact name"
                   placeholder="Your name *"
                 />
                 <input
                   type="text"
                   className="contact email"
+                  name="contact email"
                   id="contact email"
                   placeholder="Your Email *"
                 />
                 <input
                   type="text"
                   className="contact subject"
+                  name="contact subject"
                   id="contact subject"
                   placeholder="Write a Subject"
                 />
@@ -49,11 +52,7 @@ function Contact() {
                   id="message"
                   placeholder="Write Your message"
                 ></textarea>
-                {/* <input
-                  type="submit"
-                  className="contactbtn btn pointer"
-                  value="Submit"
-                /> */}
+
                 <button type="submit" className="contactbtn btn pointer">
                   Submit
                 </button>
