@@ -29,7 +29,7 @@ function Contact() {
                 <input
                   type="text"
                   className="contact name"
-                  name="cotact name"
+                  name="contact name"
                   id="contact name"
                   placeholder="Your name *"
                 />
