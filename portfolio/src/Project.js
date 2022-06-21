@@ -4,9 +4,10 @@ import React from "react"
 import "./Project.css"
 
 //assets
+import Project0 from "./img/cs.jpg"
 import Project1 from "./img/mill.jpg"
 import Project2 from "./img/4weekProject.png"
-import Project3 from "./img/cs.jpg"
+import Project3 from "./img/houseOfheroes.png"
 
 //components
 import ProjectCard2 from "./components/projectCard2"
@@ -40,6 +41,15 @@ function Project() {
           />
           <ProjectCard2
             projectImg={Project3}
+            projectHeading={"Latest Code Project"}
+            projectName={"House of Heroes"}
+            projectLink={"https://house-of-heroes.vercel.app"}
+            codeLink={"https://github.com/ScottWilsons/house-of-heroes"}
+          />
+        </div>
+        <div className="row">
+          <ProjectCard2
+            projectImg={Project0}
             projectHeading={"Project"}
             projectName={"Coming Soon"}
             projectLink={""}

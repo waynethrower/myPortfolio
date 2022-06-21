@@ -6,6 +6,7 @@ import "./ProjectCard.css"
 
 //assets
 import netlify from "../../img/icons/netlify.png"
+import vercel from "../../img/icons/vercel.png"
 
 function ProjectCard2({
   projectImg,
@@ -37,7 +38,11 @@ function ProjectCard2({
             {projectName}
             {projectLink !== "" ? (
               <a href={projectLink} alt="" className="a__link" target="_new">
-                <img src={netlify} alt="" className="img__link"></img>
+                {projectLink.indexOf("netlify") !== -1 ? (
+                  <img src={netlify} alt="" className="img__link"></img>
+                ) : (
+                  <img src={vercel} alt="" className="img__link"></img>
+                )}
               </a>
             ) : (
               <></>
